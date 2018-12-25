@@ -9,6 +9,7 @@ api = Api(app)
 
 mysql = MySQL()
 
+#change the details of database here
 app.config['MYSQL_DATABASE_USER'] = 'abhinavprakash16'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Pass@123'
 app.config['MYSQL_DATABASE_DB'] = 'abhinavprakash16$SocialNetwork'
